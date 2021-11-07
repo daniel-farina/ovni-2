@@ -52,6 +52,20 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "alien1txe65juz5mp0v2n4ycvemgk3592wpc40uhppdd",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "alien1cs2unpaxvx3gz7q02qhxf5fma0zgzfldrgfuve",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -61,6 +75,15 @@
         "default_send_enabled": true
       },
       "balances": [
+        {
+          "address": "alien1txe65juz5mp0v2n4ycvemgk3592wpc40uhppdd",
+          "coins": [
+            {
+              "denom": "alien",
+              "amount": "1000000000"
+            }
+          ]
+        },
         {
           "address": "alien1wzcqj43qn62qv2pptcp0v37z2xyvy29tmhl2wh",
           "coins": [
@@ -72,6 +95,15 @@
         },
         {
           "address": "alien1wlw36kaf7rw3hjux7auv0r4nj4x4e0r50vyy0m",
+          "coins": [
+            {
+              "denom": "alien",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "alien1cs2unpaxvx3gz7q02qhxf5fma0zgzfldrgfuve",
           "coins": [
             {
               "denom": "alien",
