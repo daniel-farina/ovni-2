@@ -31,14 +31,64 @@
         "sig_verify_cost_ed25519": "590",
         "sig_verify_cost_secp256k1": "1000"
       },
-      "accounts": []
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "alien1ajay55sd4474vrs97fesqky9wt0rf9epyfw4ce",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "alien1wzcqj43qn62qv2pptcp0v37z2xyvy29tmhl2wh",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "alien1wlw36kaf7rw3hjux7auv0r4nj4x4e0r50vyy0m",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        }
+      ]
     },
     "bank": {
       "params": {
         "send_enabled": [],
         "default_send_enabled": true
       },
-      "balances": [],
+      "balances": [
+        {
+          "address": "alien1wzcqj43qn62qv2pptcp0v37z2xyvy29tmhl2wh",
+          "coins": [
+            {
+              "denom": "alien",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "alien1wlw36kaf7rw3hjux7auv0r4nj4x4e0r50vyy0m",
+          "coins": [
+            {
+              "denom": "alien",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "alien1ajay55sd4474vrs97fesqky9wt0rf9epyfw4ce",
+          "coins": [
+            {
+              "denom": "alien",
+              "amount": "1000000000"
+            }
+          ]
+        }
+      ],
       "supply": [],
       "denom_metadata": []
     },
